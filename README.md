@@ -6,11 +6,42 @@ Drop in a vague idea, scattered notes, or a half-formed feature. Get back a shar
 
 ## Install
 
+Install into the current project:
+
 ```bash
 npx skills add scottschindler/product-clarity-skill
 ```
 
+Or install globally so it's available in every project:
+
+```bash
+npx skills add scottschindler/product-clarity-skill -g
+```
+
 Works with Claude Code, Cursor, Codex, OpenCode, and 40+ other agents via the [skills.sh](https://skills.sh) CLI.
+
+## Using It
+
+Skills auto-trigger from their description — there's no command to run.
+
+1. Open your agent in the project where the skill is installed (or anywhere if you installed globally):
+
+   ```bash
+   cd your-project
+   claude
+   ```
+
+2. Describe an idea in natural language. For example:
+
+   > "Help me think through an app idea: a daily writing prompt that adapts to your mood."
+
+   > "Turn this into a PRD: an internal tool for our support team to draft replies from past tickets."
+
+   > "Write an MVP spec for a meal planner that builds around what's already in your fridge."
+
+The agent matches your message against the skill's description and loads it automatically. You'll see it activate in the response.
+
+To verify the skill is installed, run `npx skills list`.
 
 ## How It Works
 
