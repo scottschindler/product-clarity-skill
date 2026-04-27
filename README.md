@@ -16,11 +16,10 @@ It helps with:
 
 ## Install
 
-Clone the repo and link it into your Claude Code skills directory:
-
 ```bash
-git clone https://github.com/scottschindler/product-clarity-skill.git
-ln -s "$(pwd)/product-clarity-skill" ~/.claude/skills/productclarity
+npx skills add scottschindler/product-clarity-skill
 ```
 
-Restart Claude Code. The skill will be auto-discovered and triggered when you describe a product idea, startup concept, or ask for a PRD/MVP/spec.
+Works with Claude Code, Cursor, Codex, OpenCode, and 40+ other agents via the [skills.sh](https://skills.sh) CLI.
+
+The skill is auto-triggered when you describe a product idea, startup concept, or ask for a PRD, MVP plan, or build spec.
