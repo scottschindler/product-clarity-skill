@@ -26,19 +26,19 @@ The default output covers: product summary, strategic framing, MVP scope, mechan
 ## Examples
 
 **Vague idea →**
-> "I want to build an app that helps people improve their focus."
+> "An app that helps people sleep better."
 
-The skill picks a specific first user, narrows the MVP to one focus diagnostic, defines the magic moment, lists non-goals, and gives you a build prompt — instead of dumping 20 generic features.
+The skill picks a specific first user (e.g. shift workers vs new parents vs anxious overthinkers), narrows the MVP to one wedge — say, a 60-second wind-down ritual — defines the magic moment, lists non-goals, and hands you a build prompt. No 20-feature wellness dump.
 
 **Scattered notes →**
-> "Something like a GTM engineer as a service. Plug in your app, agents handle Reddit, X, SEO, Discord."
+> "An AI sales coach that listens to your calls, scores them, drafts follow-ups, syncs to the CRM, and trains new reps."
 
-The skill narrows the wedge to one channel, separates agent actions from recommendations, adds approval workflows, and outputs a real launch plan.
+The skill picks the sharpest wedge (probably call scoring), separates what the agent does autonomously from what it suggests, adds a review/approval flow, and produces a launch plan aimed at one specific buyer instead of "all sales teams."
 
 **Feature spec →**
-> "Add a daily challenge to my writing app where everyone describes the same image."
+> "Add a streak system to my habit tracker so users keep coming back."
 
-The skill stays scoped to a feature spec (not a whole company), defines the user flow, data model, scoring, and edge cases.
+The skill stays scoped to one feature, defines the user flow, the data model, the rules around streak freezes and timezone edge cases, and the failure states — instead of redesigning the whole app.
 
 ## Style
 
